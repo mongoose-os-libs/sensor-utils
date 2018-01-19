@@ -1,4 +1,4 @@
-# A Formula Library for Mongoose OS apps
+# A Library of Sensor Utilities for Mongoose OS apps
 
 
 ## Overview
@@ -11,18 +11,18 @@ values.
 
 in _**mos.yml**_, add to **libs:** section,
 
-`  - origin: https://github.com/pedalPusher68/formula_utils `
+`  - origin: https://github.com/mongoose-os-libs/sensor-utils `
   
 in your _**init.js**_, add something like the following,
 
 ```javascript
-load('api_formula_utils.js');
+load('api_sensor_utils.js');
 ```
 
 and (here is example usage that tests the API),
 
 ```javascript
-print('Test api_formula_utils.js          ');
+print('Test api_sensor_utils.js          ');
 
 
 //Initialize a statistics object (handle)
