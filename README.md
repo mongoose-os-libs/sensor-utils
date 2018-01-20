@@ -11,7 +11,7 @@ values.
 
 in _**mos.yml**_, add to **libs:** section,
 
-`  - origin: https://github.com/pedalPusher68/sensor_utils `
+`  - origin: https://github.com/mongoose-os-libs/sensor-utils `
   
 in your _**init.js**_, add something like the following,
 
