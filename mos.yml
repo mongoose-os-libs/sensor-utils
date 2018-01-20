@@ -1,6 +1,6 @@
 author: Bradley Smith <bradley.1.smith@gmail.com>, pedalPusher68
 type: lib
-description: A Mongoose OS lib several formulas useful for developing sensor-based apps (temperature, pressure, etc.)
+description: A Mongoose OS lib of several formulas useful for developing sensor-based apps (temperature, pressure, etc.)
 version: 1.0
 
 libs_version: ${mos.version}
@@ -18,7 +18,6 @@ filesystem:
 config_schema:
 
 libs:
-#  - origin: https://github.com/mongoose-os-libs/i2c
 
 tags:
   - c
